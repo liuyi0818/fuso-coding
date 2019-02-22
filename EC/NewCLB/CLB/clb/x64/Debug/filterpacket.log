@@ -1,0 +1,17 @@
+﻿Build started 12/3/2014 6:48:55 PM.
+     1>Project "C:\build\ssw\sample\filterpacket\filterpacket.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gz /TP /errorReport:prompt filterpacket.cpp
+         filterpacket.cpp
+     1>filterpacket.cpp(220): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>filterpacket.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>filterpacket.cpp(243): warning C4244: '+=' : conversion from 'LONG64' to 'long', possible loss of data
+     1>filterpacket.cpp(244): warning C4244: '+=' : conversion from 'LONG64' to 'long', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\build\ssw\sample\x64\Debug\filterpacket.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\build\ssw\sample\x64\Debug\filterpacket.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\build\ssw\sample\x64\Debug\filterpacket.lib" /MACHINE:X64 x64\Debug\filterpacket.obj
+         filterpacket.vcxproj -> C:\build\ssw\sample\x64\Debug\filterpacket.exe
+     1>Done Building Project "C:\build\ssw\sample\filterpacket\filterpacket.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.17

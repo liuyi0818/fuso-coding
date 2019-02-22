@@ -1,0 +1,16 @@
+﻿Build started 1/16/2015 20:53:01 PM.
+     1>Project "C:\Users\v-guoche\Desktop\sample\lib\lib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\pfilter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gz /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\pfilter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gz /TP /analyze- /errorReport:prompt libimp.cpp
+         libimp.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\v-guoche\Desktop\sample\lib\Debug\pfilter.lib" /NOLOGO Debug\libimp.obj
+         Debug\stdafx.obj
+         lib.vcxproj -> C:\Users\v-guoche\Desktop\sample\lib\Debug\pfilter.lib
+     1>Done Building Project "C:\Users\v-guoche\Desktop\sample\lib\lib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53

@@ -1,0 +1,43 @@
+﻿Build started 1/30/2015 10:48:30 AM.
+     1>Project "D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\clb\clb.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (filterpacket.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./raid6/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gz /TP /analyze- /errorReport:prompt Decode.cpp
+         Decode.cpp
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(465): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(664): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(669): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\kuaipan\my_work\my paper\sigcomm2015\code\implementation\newclb\clb\clb\decode.cpp(1161): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\Debug\clb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\Debug\clb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\Debug\clb.lib" /MACHINE:X86 Debug\clb_main.obj
+         Debug\clb_tunnel_agent.obj
+         Debug\debug_print.obj
+         Debug\Decode.obj
+         Debug\encode.obj
+         Debug\fetchPacket.obj
+         Debug\flow_classify.obj
+         Debug\ip.obj
+         Debug\cauchy_best_r6.obj
+         Debug\galois.obj
+         Debug\gf.obj
+         Debug\gf_general.obj
+         Debug\gf_method.obj
+         Debug\gf_rand.obj
+         Debug\gf_w128.obj
+         Debug\gf_w16.obj
+         Debug\gf_w32.obj
+         Debug\gf_w4.obj
+         Debug\gf_w64.obj
+         Debug\gf_w8.obj
+         Debug\gf_wgen.obj
+         Debug\jerasure.obj
+         Debug\liberation.obj
+         Debug\reed_sol.obj
+         clb.vcxproj -> D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\Debug\clb.exe
+     1>Done Building Project "D:\Kuaipan\My_Work\My Paper\SIGCOMM2015\code\Implementation\NewCLB\CLB\clb\clb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

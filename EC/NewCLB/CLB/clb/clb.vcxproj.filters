@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="raid6">
+      <UniqueIdentifier>{910d1de5-5fae-4d79-8670-d1756e1f7c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raid6\include">
+      <UniqueIdentifier>{6d7b82a5-24a9-4781-8131-ec1717a359fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raid6\src">
+      <UniqueIdentifier>{afafed43-a958-4562-b1b8-9fb427277999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clb_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fetchPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flow_classify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clb_tunnel_agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\cauchy_best_r6.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\galois.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_general.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_method.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_rand.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w4.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w8.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w16.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w32.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w64.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_w128.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\gf_wgen.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\jerasure.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\liberation.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raid6\src\reed_sol.c">
+      <Filter>raid6\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clb_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flow_classify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clb_tunnel_agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodeAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\galois.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_complete.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_general.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_int.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_method.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_rand.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_w4.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_w8.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_w16.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_w32.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\gf_w64.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\jerasure.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\liberation.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6\include\reed_sol.h">
+      <Filter>raid6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="raid6_all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
